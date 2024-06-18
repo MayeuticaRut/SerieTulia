@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <title>Serie Tulia</title>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINK -->
+    <!-- Primer reset, luego estilos y luego tipo -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script async src="js/app.js" type="module"></script>
+    <!-- Red De Distribucion de Contenido JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!-- CABECERA LOGO -->
+      <div class="header_top">
+        <img src="img/logo/LaSerietulia-h.svg" alt="logo de La Serie Tulia" />
+      </div>
+      <!-- CABECERA FORM -->
+      <div class="header_bot df">
+        <picture>
+          <source
+            srcset="
+              img/victoria-kubiaki-yeFJNtA3604-unsplash.jpg,
+              img/victoria-kubiaki-yeFJNtA3604-unsplash@2x.jpg 2x,
+              img/victoria-kubiaki-yeFJNtA3604-unsplash@3x.jpg 3x
+            "
+          />
+          <img
+            src="img/victoria-kubiaki-yeFJNtA3604-unsplash@3x.jpg"
+            alt="televisor, extintor y madera"
+          />
+        </picture>
+        <form id="descripcion" action="" method="post">
+          <fieldset>
+            <h2>
+              Maníacs de les sèries? <span>Teniu una cita ineludible.</span>
+            </h2>
+            <p>
+              Els pròxims 22 i 23 de novembre tens una cita que no pots deixar
+              perdre. Passa't a compartir la teva passió pel setè art "de sofà"
+              amb uns convidats excepcionals.
+            </p>
+            <ul class="descripcion_formulario df">
+              <li>
+                <input
+                  id="correo"
+                  name="correo"
+                  type="email"
+                  placeholder="Escribe tu correo electrónico"
+                  tabindex="1"
+                  required
+                />
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="aceptar"
+                  id="aceptar"
+                  tabindex="2"
+                  required
+                />
+                <label for="aceptar"
+                  >He llegit i accepto la <u>política de privacitat</u></label
+                >
+              </li>
+              <li>
+                <button class="newsletter" type="submit" tabindex="3">
+                  Alta Newsletter
+                </button>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </div>
+      <section class="noname">
+        <h2>Activitats dins del festival</h2>
+        <div class="actividades">
+          <article>
+            <span class="fa-solid fa-mug"></span>
+            <p>Taules rodones</p>
+          </article>
+          <article>
+            <i class="fa-solid fa-video"></i>
+            <h3>Projecció de sèries</h3>
+          </article>
+          <article>
+            <span class="fa-solid fa-comments"></span>
+            <h3>Debats amb els convidats</h3>
+          </article>
+          <article>
+            <span class="fa-solid fa-comments"></span>
+            <h3>Serietúlia Pro</h3>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div id="cards"></div>
+      </section>
+    </header>
+
+    <section class="series_botones">
+      <button type="button">Totes</button>
+      <button type="button">HBO Max</button>
+      <button type="button">Netflix</button>
+      <button type="button">Fillmin</button>
+      <button type="button">Prime</button>
+      <button type="button">Disney Plus</button>
+    </section>
+
+    <div class="series jc df fw">
+      <div class="series-plat" title="netflix">
+        <img src="img/series/the-office@3x.jpg" alt="" />
+      </div>
+      <div class="series-plat" title="prime">
+        <img src="img/series/luther@3x.jpg" alt="" />
+      </div>
+      <div class="series-plat" title="prime">
+        <img src="img/series/killing-eve@3x.jpg" alt="" />
+      </div>
+      <div class="series-plat" title="prime">
+        <img src="img/series/halt-catch@3x.jpg" alt="" />
+      </div>
+      <div class="series-plat" title="prime">
+        <img src="img/series/girls@3x.jpg" alt="" />
+      </div>
+      <div class="series-plat" title="prime">
+        <img src="img/series/fleabag@3x.jpg" alt="" />
+      </div>
+      <div class="series-plat" title="prime">
+        <img src="img/series/firefly@3x.jpg" alt="" />
+      </div>
+      <div class="series-plat" title="prime">
+        <img src="img/series/castle@3x.jpg" alt="" />
+      </div>
+    </div>
+
+    <footer></footer>
+  </body>
+</html>

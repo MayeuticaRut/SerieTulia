@@ -1,0 +1,105 @@
+@import url("reset.css");
+@import url("type.css");
+
+:root {
+  --color-primary: #009ee0;
+  --font-size-base: 1.125rem; /*18px*/
+  --font-family-base: "roboto-regular";
+  --font-family-secondary: "roboto-medium";
+  --border-style-button: 12px;
+  --color-background-button: #336bad;
+  --line-height-base: 66px; /* 132% */
+  --letter-spacing-base: 1px;
+}
+
+
+/* <!-- CABECERA LOGO --> */
+.header_top {
+  height: 200px;
+  position: relative;
+  top: 35px;
+}
+/* DISPLAY FLEX */
+.df {
+  display: flex;
+}
+/* FLEX WRAP */
+.fw {
+  flex-wrap: wrap;
+}
+/* JUSTIFY CONTENT CENTER */
+.jc {
+  justify-content: center;
+}
+
+#correo {
+  width: 280px;
+  height: 36px;
+  background-color: #f1f1f1;
+}
+
+.header_bot {
+  height: 450px;/*23.438vw*/
+  gap: 2.941vw;/*40px*/
+}
+.header_bot picture img {
+  height: 450px;/*23.438vw*/
+  width: 49.265vw;/*670px*/
+}
+.header_bot div {
+  padding: 0em 2.563em 0em 2.563em;
+  /* line-height: var(--line-height-base);132% */
+  letter-spacing: var(--letter-spacing-base);
+}
+.header_bot span {
+  color: var(--color-primary);
+}
+
+.header_bot p {
+  font-size: var(--font-size-base);
+}
+.header_bot h2 {
+  font-size: 3.125rem;
+  font-family: var(--font-family-secondary);
+  line-height: var(--line-height-base); /* 132% */
+ 
+}
+
+#descripcion {
+  width: 33.088vw;/*450px*/
+  height: 450px;
+  margin-right: 2.941vw;
+}
+
+.descripcion_formulario li {
+width: 33.088vw;/*450px*/
+list-style-type: none;
+}
+
+.series {
+  gap: 20px;
+}
+
+.series-plat img {
+  width: 19.118vw;/*260px*/
+  height: 390px;/*28.676vw*/
+}
+/*  */
+
+
+.newsletter {
+  border-radius: var(--border-style-button);
+  border: solid 2px var(--color-primary);
+  color: var(--color-primary);
+  /* background-color: var(--color-background-button); */
+  padding: 12px 12px;
+}
+.series_botones button{
+width: 119px;
+height: 46px;
+
+}
+#cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
